@@ -55,11 +55,16 @@
                                     <constraint firstAttribute="trailing" secondItem="6To-PC-Yp5" secondAttribute="trailing" constant="20" id="moC-cx-fqF"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qDY-JF-Z92" customClass="RatingControl" customModule="FoodTracker_KL" customModuleProvider="target">
+                                <rect key="frame" x="20" y="479" width="200" height="110"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="qDY-JF-Z92" firstAttribute="top" secondItem="0Hh-69-2b9" secondAttribute="bottom" constant="14.5" id="3pr-OC-3p2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Hh-69-2b9" secondAttribute="trailing" id="74W-MI-c1a"/>
                             <constraint firstItem="0Hh-69-2b9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8lA-Sr-sJ8"/>
+                            <constraint firstItem="qDY-JF-Z92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NM8-CB-DcU"/>
                             <constraint firstItem="0Hh-69-2b9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UdO-Kg-NFp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
